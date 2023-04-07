@@ -1,0 +1,61 @@
+<html>
+    <body>
+	<div class="converter-body">
+		<link rel="stylesheet" href="styles.css">
+
+		<h1 class="converter-title">Length Converter</h1>
+
+        <span style = "display: flex; justify-content: center;">
+
+        <input type="text" placeholder="Input" id="input">
+
+		<select id="inputType">
+			<option value="Millimeter">Millimeter</option>
+			<option value="Centimeter">Centimeter</option>
+			<option value="Inch">Inch</option>
+            <option value="Foot">Foot</option>
+			<option value="Yard">Yard</option>
+			<option value="Meter">Meter</option>
+            <option value="Kilometer">Kilometer</option>
+			<option value="Mile">Mile</option>
+		</select>
+
+		<span style="margin-top: 9px;margin-left: 16px; margin-right: 16px; font-size: 30px; color: white" = "equals">=</span>
+
+        <input type="text" placeholder="Result" id="result" readonly="readonly">
+
+		<select id="resultType">
+			<option value="Millimeter">Millimeter</option>
+			<option value="Centimeter">Centimeter</option>
+			<option value="Inch">Inch</option>
+            <option value="Foot">Foot</option>
+			<option value="Yard">Yard</option>
+			<option value="Meter">Meter</option>
+            <option value="Kilometer">Kilometer</option>
+			<option value="Mile">Mile</option>
+		</select>
+    </span>
+
+    <span style = "display:flex; justify-content: center;">
+    <p id = "formulaHeader" 
+	style = "font-size: 30px; 
+	color: rgb(255, 255, 255); 
+	margin-right: 10px;
+	border: 4px; 
+	border-style: solid; 
+	border-color:#0084ff; 
+	padding: 3px;">Formula</p>
+
+    <p id="formula" style="font-size: 30px; color: rgb(255, 213, 0); padding-top: 7.5px; padding-left: 3px"></p></span>
+
+	<span style = "display:flex; justify-content: center;">
+
+    <p id="math" style="font-size: 30px; color: rgb(255, 255, 255);"></p>
+
+	</span> 
+  
+        <script src="math.js"></script>
+
+    </body>
+  </div>
+</html>

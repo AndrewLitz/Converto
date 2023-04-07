@@ -1,0 +1,141 @@
+.converterHeader {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 20px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  display: flex;
+  text-decoration-line: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: #ff0052;
+
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.commonLine1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonLine1 button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--convertoRed);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(23, 23, 23, 0.9) 3px 5px 8px;
+  border-radius: 10px;
+}
+
+.commonLine1 button:hover {
+  background-color: #830029;
+}
+
+.commonLine2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonLine2 button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--convertoRed);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(23, 23, 23, 0.9) 3px 5px 8px;
+  border-radius: 10px;
+}
+
+.commonLine2 button:hover {
+  background-color: #830029;
+}
+
+.commonLine3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonLine3 button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--convertoRed);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(23, 23, 23, 0.9) 3px 5px 8px;
+  border-radius: 10px;
+}
+
+.commonLine3 button:hover {
+  background-color: #830029;
+}
+
+.commonLine4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonLine4 button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--convertoRed);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(23, 23, 23, 0.9) 3px 5px 8px;
+  border-radius: 10px;
+}
+
+.commonLine4 button:hover {
+  background-color: #830029;
+}
+
+.commonLine5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commonLine5 button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: var(--convertoRed);
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(23, 23, 23, 0.9) 3px 5px 8px;
+  border-radius: 10px;
+}
+
+.commonLine5 button:hover {
+  background-color: #830029;
+}
